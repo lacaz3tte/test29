@@ -31,4 +31,4 @@
     -w /var/www/html \
     laravelsail/php82-composer:latest \
     composer install --ignore-platform-reqs
-- sail up -d
+- ./vendor/bin/sail up -d
